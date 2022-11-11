@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Print Tool Version') {
       steps {
-        sh 'mvn --version \\ java --version \\ git --version'
+        sh 'java -version'
       }
     }
 
